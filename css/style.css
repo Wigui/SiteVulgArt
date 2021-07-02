@@ -21,9 +21,6 @@ body{
         background-color: #5e15e6;
     }
 
-    .imageTablette{
-        content:url("image/ImageTablette.png");
-        }
 
 }
 
@@ -34,8 +31,5 @@ body{
         background-color: #ca0d0d;
     }
 
-    .imageTelephone{
-        content:url("image/ImageTelephone.png");
-        }
 
 }
