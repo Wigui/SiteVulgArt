@@ -7,6 +7,18 @@ body{
 	margin: 0;
 }
 
+#Intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.logo{
+    -webkit-filter: drop-shadow(1px 1px 1px #222 );
+  filter: drop-shadow(1px 1px 1px #222);
+
+}
 
 /* Taille Ecran Ordinateur 
 @media (min-width: 1024px){
