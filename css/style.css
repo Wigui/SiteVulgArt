@@ -5,6 +5,11 @@ body{
 	font-family: Montserrat;
 	padding: 0;
 	margin: 0;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 #Intro{
@@ -12,12 +17,55 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .logo{
+    margin: 0 auto;
+    
     -webkit-filter: drop-shadow(1px 1px 1px #222 );
-  filter: drop-shadow(1px 1px 1px #222);
+    filter: drop-shadow(1px 1px 1px #222);
+}
 
+.text{
+    text-align: center;
+}
+
+#qui{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    flex-direction: column;
+}
+
+.italique{
+font-style: italic;
+}
+
+.container{
+    /* column-count: 3; */
+    width: 80vw;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
 }
 
 /* Taille Ecran Ordinateur 
