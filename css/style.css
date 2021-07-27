@@ -32,6 +32,20 @@ body{
     clear: both;
 }
 
+.container{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+
 .logo{
     margin: 0 auto;
     
@@ -43,29 +57,26 @@ body{
     text-align: center;
 }
 
+.italique{
+    font-style: italic;
+}
+
 #qui{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 70vh;
 
     flex-direction: column;
 }
 
-.italique{
-font-style: italic;
-}
+#reseaux{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
 
-.container{
-    /* column-count: 3; */
-    width: 80vw;
-}
-
-.column{
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    height: 300px;
+    flex-direction: column;
 }
 
 /* Taille Ecran Ordinateur 
