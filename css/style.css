@@ -79,6 +79,28 @@ body{
     flex-direction: column;
 }
 
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+
+    flex-direction: column;
+}
+
+/* .verticent{
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+    background-color: teal;
+} */
+
+.test{
+    background-color: rgb(180, 180, 163);
+
+}
+
+
 /* Taille Ecran Ordinateur 
 @media (min-width: 1024px){
 
